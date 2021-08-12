@@ -1,0 +1,105 @@
+(Natural News) Is 5G to partially blame for coronavirus deaths? Can 5G cause the blood that’s circulating in your body to be unable to carry oxygen?
+
+What’s especially horrifying about the critical care of coronavirus patients is that they aren’t suffering from “viral pneumonia,” but rather from an inability to absorb or carry oxygen in the blood.
+
+This has been confirmed by NYC ICU emergency physician Cameron Kyle-Sidell, who has released several videos detailing how coronavirus is not a kind of viral pneumonia. “We’re treating the wrong disease,” he says. And the ventilators are damaging the lungs of patients. He explains:
+
+COVID-19 lung disease, as far as I can see, is not a pneumonia and should not be treated as one. Rather, it appears as if some kind of viral-induced disease most resembling high altitude sickness. Is it as if tens of thousands of my fellow New Yorkers are on a plane at 30,000 feet at the cabin pressure is slowly being let out. These patients are slowly being starved of oxygen.
+
+Watch him explain how coronavirus patients are dying from oxygen starvation, not from a viral pneumonia lung infection:
+
+What this emergency room physician makes clear is that coronavirus patients are dying from oxygen deprivation, not a classic scenario of viral pneumonia. The patients’ lungs work fine, in other words, and the ventilators are actually damaging their lungs by forcing excessive pressure into them.
+
+How does blood transport oxygen in the first place?
+
+How, exactly, can all these patients be starved of oxygen when their lungs are technically working just fine? To understand one possible answer, you have to first understand how the blood carries oxygen. It’s way more fascinating than you might have supposed.
+
+When functioning normally, 1 molecule of hemoglobin binds with 4 molecules of oxygen, using iron (Fe2+), forming oxyhemoglobin. But this binding is only achieved because of something called “partial pressure” which means the concentration of oxygen in the lung tissues is higher than the concentration of oxygen on the hemoglobin molecule (roughly stated, this is simplified somewhat), so the oxygen “leaps” to the hemoglobin in order to equalize the partial pressures across the chasm.
+
+
+
+Image source: QSstudy.com
+
+
+
+But 5G radiation alters the porosity of cell membranes, allowing some molecules or ionic elements to move more easily across those members, displacing other molecules (or soluble gasses such as carbon dioxide) that might normally make that leap. For example, it is well documented that 5G radiation causes “Voltage Gated Ion Channels” (VGIC), specifically with calcium ions (VGCC), causing cellular toxicity due to too much calcium entering the cell walls and poisoning the cells.
+
+The research on this was published in Environmental Research — here’s the link — and reveals that 5G exposure not only alters cell permeability (porosity), but also releases peroxinitrites in the body. These are inflammation-producing molecules that ravage other healthy molecules circulating in the blood.
+
+As described by Natural News:
+
+A thorough review of the available published science on wireless (WiFi) and electromagnetic frequency (EMF) exposure has identified at least seven different ways that WiFi and EMF microwave pollution actively harms the human body.
+
+Published in the journal Environmental Research, the peer-reviewed paper explains that exposure to WiFi signals, which are everywhere these days, can lead to: oxidative stress, sperm and testicular damage, neuropsychiatric effects including EEG (electroencephalogram) changes, apoptosis (programmed cell death), cellular DNA damage, endocrine changes, and calcium overload.
+
+Note that coronavirus patients are already being observed with neuropsychiatric effects, testicular damage and oxidative stress, three of the symptoms of 5G exposure.
+
+We just created this simple chart to point out the similarities between 5G exposure and coronavirus symptoms. Feel free to share everywhere, and link back to this article if possible:
+
+Mass insanity due to psychiatric effects of cellular poisoning
+
+We also know that 5G radiation and its effects on the cells of the body can lead to symptoms of insanity, hallucinations and even powerful personality changes. Interestingly, CNN’s Chris Cuomo already described bouts of hallucinations as he was battling the coronavirus, living in a high-5G city (NYC). As I wrote on Natural News last December:
+
+5G radiation causes “neuropsychiatric” effects through a mechanism described as ion potentiation poisoning of brain cells, according to research published in Environmental Research.
+
+This results in behavioral changes and even personality changes among those who are routinely exposed, researchers found. In other words, 5G is a weapon system that doubles as a telecommunications infrastructure, but the real impact is to damage human brain function and destroy rationality, reason and civility, especially among those who live in high population cities where 5G towers are becoming ubiquitous. That’s why you may have noticed increased insanity and widespread mental derangement in those areas.
+
+Part of this effect may also be due to the production of peroxynitrites, which are generated in the body’s cells upon exposure to the voltage emitted by 5G radiation, which is beamed at your body in a narrow cone of high-intensity energy. (5G antennae focus energy in a tight beam that follows you around.)
+
+We are already observing the coronavirus causing psychiatric effects, including zombie-like violent, aggressive behavior such as deliberately spitting and coughing on people.
+
+How 5G radiation exposure alters the ability of red blood cells to carry oxygen
+
+Getting back to the oxygen question, the answer to why 5G radiation exposure may alter the function of hemoglobin is found in understanding the protein structure of hemoglobin itself.
+
+Hemoglobin relies on something called the “heme group” which is a complex molecule with iron (FE 2+) in its center. This is surrounded by something called a “porphyrin ring” which is a cluster of unique structures (made of oxygen, carbon and hydrogen) that has a special affinity for other oxygen atoms. The ability for oxygen to “leap” onto this molecule in the lungs depends entirely on the structure (which also implies the ionic charges) of these complex molecules.
+
+One thing to note in all this is that without the presence of histidine, a special protein, this heme group would have higher affinity toward carbon monoxide than oxygen, meaning the entire heme group would be occupied by carbon monoxide, blocking the absorption of oxygen. Thus, the histidine presence is critical for allowing the heme group to bind with oxygen. If you mess with histidine, you end up forcing hemoglobin to carry CO instead of O2, effectively creating oxygen deprivation in the blood.
+
+This heme group, by the way, has special affinity for carbon dioxide, which allows the same molecule to carry CO2 out of the body’s cells and transport CO2 back to the lungs. Remember: The same hemoglobin molecule must carry both CO2 and O2 but at different times, and it must attract and then release those molecules at opposite times in order to rid the body of CO2 and nourish the body with O2. This is all accomplished with a delicate balance of proteins and protein folding.
+
+The hemoglobin molecule itself is a miracle of nanotechnology. It transmorphs into two different structural states based on whether it’s carrying oxygen or not. In what’s called the “R-state,” this molecule is like a magnet for oxygen. When four oxygen atoms are bound, it becomes a highly stable structure (and appears red). Technically, the binding of a single molecule of oxygen (O2) increases the affinity toward oxygen on the three other oxygen sites, making the hemoglobin “mop up” four oxygen molecules very quickly. When it lacks oxygen, it changes to a “T-state” and appears blue, which is why low-oxygen blood has a blue color.
+
+The important thing to understand in all this is that any alteration of the delicate structure of hemoglobin will impair its ability to bind with oxygen.
+
+Take a look at the hemoglobin molecule representation above, from APSUbiology.org, and note the heme groups which are positioned in four places across the molecule. The polypeptide chains are part of the transmorphing structure of the molecule that allows it to carry and release both CO2 and O2, depending on the partial pressures of the gasses at different locations in the body (lungs vs. other cells). Note carefully that any change in the structure of hemoglobin will cause it to stop functioning:
+
+Increasing the permeability of the hemoglobin molecule — i.e. its affinity toward other soluble gasses such as carbon dioxide — will “occupy” the hemoglobin molecule with the wrong substances, making it unable to absorb oxygen because it is not presenting in its “R-state” by the time the heart pumps the blood back to the lungs.
+
+Stated another way, anything that significantly alters the affinity of hemoglobin toward other soluble gasses (carbon dioxide, carbon monoxide, or even ionic minerals in the blood) could “shut off” the ability of blood to carry oxygen by altering its atomic structure.
+
+If you change the structure of the heme group, it no longer functions to transport oxygen. Because in the case of the heme group, the structure is the function. Perhaps this can only be appreciated by organic chemists, but this heme group is truly a miracle of nanotechnology.
+
+Here’s a diagram of how iron, histidine, the heme group and O2 oxygen molecules interact with hemoglobin, which alters its structure depending on the “oxygenated” vs. “deoxygenated” forms: (via Biology.Kenyon.edu)
+
+Can 5G exposure alter the structure of hemoglobin by increasing its affinity toward other molecules which are not O2?
+
+The real question in all this is best phrased as I have asked it above. I doubt that we are dealing with a phenomenon where 5G radiation exposures blocks the ability of hemoglobin to carry oxygen, but rather occupies the hemoglobin molecule with other elements that alter its structure and therefore its function, inhibiting its ability to bind with oxygen.
+
+This is very likely happening all across the world wherever 5G is currently functioning, it’s just that the coronavirus is now exacerbating the symptoms and conditions to the point where mass death is occurring.
+
+In other words, the coronavirus pandemic would likely not be nearly as bad if 5G exposure / radiation pollution wasn’t already compromising the structure and function of hemoglobin cells in the bodies of people who live in 5G cities.
+
+This doesn’t mean the coronavirus isn’t real, of course; just that these two attacks on the human body have a synergistic effect of toxicity and mortality.
+
+Conclusion: Humanity is committing suicide with 5G
+
+While I strongly disagree with those who are claiming there’s no such thing as a virus or that the coronavirus is a hoax, I do agree that the widespread deployment of 5G antennas is a kind of suicide pact for the world.
+
+Just as the Romans built their aqueducts out of lead linings and thereby poisoned their own citizens, driving them insane with load poisoning, the modern world of Big Tech and telecommunications is mass poisoning humanity with electropollution.
+
+Right now, a lot of people are talking about the book, “The Invisible Rainbow” by John Kaminski, who believes coronavirus is an “electrical disease” and that 5G alone is causing all the mass deaths, not the virus. He writes things like, “The flu is not contagious” and “the quarantine is all a terrible hoax.”
+
+Surely he is wrong on those claims, but he may not be wrong at all about the toxicity of electropollution and how 5G is actually a kind of “suicide system” that’s destroying humanity.
+
+This all deserves a tremendous amount of additional study, but because we live in a world where Big Tech controls all the narratives and censors all those who question the safety of 5G, it now seems impossible for humanity to extricate itself from this mass suicide mission that has already been unleashed.
+
+And that doesn’t even cover the topic of vaccines. What if Bill Gates’ vaccines are being deliberately engineered to contain toxic substances that 5G exposure will push into the cells, causing widespread death from “binary” exposure and subsequent cell toxicity?
+
+It sure would be a simple way for Bill Gates to achieve his global depopulation dreams, all while administering a global IQ test that finds out which people are stupid enough to line up and be injected with a euthanasia weapon system.
+
+Watch my video here on how we can end this pandemic and end the lockdowns, too, by turning to nutrition and masks:
+
+Brighteon.com/bded5422-309d-48c7-859c-6de827faa8d7
+
+If you want to stay alive, read NaturalNews.com or Pandemic.news.

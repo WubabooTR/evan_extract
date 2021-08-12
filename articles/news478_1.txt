@@ -1,0 +1,5 @@
+Yes you can transfer your domain to any registrar or hosting company once you have purchased it. Since domain transfers are a manual process, it can take up to 48 hours to transfer the domain.
+
+Once you have received access to your account with the domain's current registrar you will be able to move the domain to any registrar of your choosing.
+
+* When a domain is purchased on a payment plan, a registrar-lock is placed on the domain until all payments have been made. This registrar-lock prevents transfers.
