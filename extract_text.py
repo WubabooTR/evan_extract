@@ -27,7 +27,7 @@ class Extract():
         
         self.text_tags = text_tags
         if not len(self.text_tags): 
-            self.text_tags = ['a', 'p', 'strong', 'b', 'span']
+            self.text_tags = ['a', 'p', 'strong', 'b', 'span', 'em']
         
         self.parent_tags = self.text_tags + ['blockquote']
         

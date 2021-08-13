@@ -10,10 +10,7 @@ Titled, Influenza vaccination and respiratory virus interference among Departmen
 
 The following screen shot from the study of Table 5 shows the increased odds of testing positive for coronavirus after receiving the influenza vaccine during that flu season:
 
-<img width="1024" height="388" src="https://www.disabledveterans.org/wp-content/uploads/2020/03/DOD-Study-Influenza-Vaccine-Coronavirus-1024x388.jpg" alt="" class="wp-image-30115" srcset="https://www.disabledveterans.org/wp-content/uploads/2020/03/DOD-Study-Influenza-Vaccine-Coronavirus-1024x388.jpg 1024w, https://www.disabledveterans.org/wp-content/uploads/2020/03/DOD-Study-Influenza-Vaccine-Coronavirus-300x114.jpg 300w, https://www.disabledveterans.org/wp-content/uploads/2020/03/DOD-Study-Influenza-Vaccine-Coronavirus-768x291.jpg 768w, https://www.disabledveterans.org/wp-content/uploads/2020/03/DOD-Study-Influenza-Vaccine-Coronavirus.jpg 1408w" sizes="(max-width: 1024px) 100vw, 1024px" />
-
 Flu Vaccine Interference
-
 Paraphrasing, the study highlights the value of the human body’s ability to fight against viruses. Apparently, by contracting influenza, the body naturally “may reduce the risk of non-influenza respiratory viruses…”
 
 Due to the flu vaccine’s “interference” with the naturally occurring biological process, there may be an increased risk of contracting non-influenza viruses:
@@ -21,19 +18,15 @@ Due to the flu vaccine’s “interference” with the naturally occurring biolo
 “While influenza vaccination offers protection against influenza, natural influenza infection may reduce the risk of non-influenza respiratory viruses by providing temporary, non-specific immunity against these viruses. On the other hand, recently published studies have described the phenomenon of vaccine-associated virus interference; that is, vaccinated individuals may be at increased risk for other respiratory viruses because they do not receive the non-specific immunity associated with natural infection.”
 
 Why This Topic?
-
 I started digging into this topic on the Department of Veterans Affairs’ (VA) advice two weeks ago when I noticed the agency’s top advice about coronavirus was to “get a flu shot”.
 
-This advice seemed a bit too simplistic when given to a population of largely elderly veterans with significant disabilities, vaccine histories, and exposures to various pathogens worldwide.
-
-<img width="1024" height="431" src="https://www.disabledveterans.org/wp-content/uploads/2020/03/200303-VA-Coronavirus-Advice-1024x431.jpg" alt="" class="wp-image-30106" srcset="https://www.disabledveterans.org/wp-content/uploads/2020/03/200303-VA-Coronavirus-Advice-1024x431.jpg 1024w, https://www.disabledveterans.org/wp-content/uploads/2020/03/200303-VA-Coronavirus-Advice-300x126.jpg 300w, https://www.disabledveterans.org/wp-content/uploads/2020/03/200303-VA-Coronavirus-Advice-768x323.jpg 768w, https://www.disabledveterans.org/wp-content/uploads/2020/03/200303-VA-Coronavirus-Advice.jpg 1230w" sizes="(max-width: 1024px) 100vw, 1024px" />
+This advice seemed a bit too simplistic when given to a population of largely elderly veterans with significant disabilities, vaccine histories, and exposures to various pathogens worldwide. 
 
 After writing about it, one reader sent an email citing this study in PubMed.
 
 I was later provided a copy of the full study and reviewed it with an expert to verify my own conclusions based on the information in that report.
 
 Informed Consent For Flu Vaccine
-
 Now, the feedback I received that really caught my attention was mainly in a question: Is the heightened risk of coronavirus and other pathogens worth the benefit of the influenza vaccine based on this study as broken down in Table 5 above?
 
 The column to focus on is “OR” in Table 5 called the Odds Ratio.
@@ -47,7 +40,6 @@ Three of 8 evaluations noted a statistically insignificant benefit for the flu s
 If VA has this information, and they likely do, should the agency be required to share this increased risk factor with individuals considering the shot?
 
 Studied Military Population
-
 The study, published in the scientific journal Vaccine January 2020, was conducted by the Armed Forces Health Surveillance Branch Air Force Satellite at Wright-Patterson AFB, OH.
 
 Taken at face value, the study indicates people who received the flu vaccine are at increased risk for coronavirus pre-COVID-19, during 2017-2018. Like veterans, current service members, school teachers, and medical professionals, the study population consisted of a population with a history of being heavily vaccinated.
@@ -55,7 +47,6 @@ Taken at face value, the study indicates people who received the flu vaccine are
 “The DoD provides a unique population for vaccination studies as mandatory vaccination against influenza is required by the DoD for all Active Duty and Reserve Component personnel. This study aims to examine the relationship between specific respiratory viruses and influenza vaccination. The protocol for this study was reviewed and approved as exempt by the Air Force Research Laboratory Institutional Review Board.”
 
 Future § 1151 Claims For Malpractice?
-
 Will veterans who contract the coronavirus after receipt of the flu vaccine based on VA’s top recommendation be eligible for § 1151 claims for malpractice?
 
 How will the US Court of Claims – Vaccine Court handle an influx of US citizens injured by contracting the coronavirus due to the significant risk in the study?
@@ -75,7 +66,6 @@ How about Vietnam veterans exposed to toxic herbicides?
 This virus is basically a death sentence for our poorly treated disabled Vietnam veterans who rely on VA to provide safe and effective medical care for their diabetes, cancer, hypertension, etc.
 
 Ask Your Doctor
-
 I encourage all readers to do your own research. Ask your VA medical doctor about this study and whether they agree with the blanket recommendation of the agency to get a flu shot to get ahead of coronavirus.
 
 Is this solid medical advice?
@@ -87,7 +77,6 @@ The individuals included in the study provided respiratory specimens to the DoDG
 “All people submitting a respiratory specimen to the DoDGRS for the 2017–2018 influenza season were eligible for the study. The influenza season began 1 October 2017 and ended 29 September 2018. Those who submitted a sample and only tested positive for Chlamydia pneumoniae and/or Mycoplasma pneumoniae were excluded because these illnesses are bacteriological in nature, not viral. People with influenza and non-influenza coinfections were excluded because they could not be uniquely classified as either influenza or non-influenza respiratory virus. Individuals with multiple specimens collected during the season were also removed from the study as they could have had multiple different viruses over the season. Specimens where neither vaccination status could be obtained via databases nor a questionnaire was completed were excluded because vaccination status could not be confirmed. Subjects who were ill before receiving vaccination were excluded as vaccination status would therefore be unrelated to illness. Lastly, those people for whom the laboratory rejected the specimen were not included in the final study population.”
 
 Be Optimistic But Careful
-
 From what I can tell, the odds of being exposed in the US are high. The death rate if you get sick is high enough to warrant concern.
 
 Wouldn’t it be nice to get good advice from the socialized healthcare system managed by the VA that is supposed to provide us with care?
@@ -96,10 +85,7 @@ For some non-US centric news about the virus, I wanted to include a YouTube vide
 
 Now, this video pushes the narrative that the disease originated from the wet markets in Wuhan that also happened to be located near the level 4 biological laboratory studying the virus. I do not believe we know enough to confirm whether the origin is from such markets or manmade.
 
-<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"> <iframe class='youtube-player' width='1200' height='675' src='https://www.youtube.com/embed/Y7nZ4mw4mXw?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe>
-
 Getting Your Flu Shot?
-
 I am personally not getting the flu shot and do not plan on taking any vaccines moving forward beyond what I was forced to take in the military due to vaccine injury.
 
 What are your thoughts? Getting the flu shot to get ahead?
@@ -109,3 +95,4 @@ To be clear, I am not opposed to the use of safe and effective vaccines. Persona
 UPDATE 3/19/2020: According to the chief medical officer for England, cited by news media publisher Mirror, Britons who received the influenza vaccine for this flu season were cautioned to self-isolate for 12 weeks as they fall into the government’s “high risk” category.
 
 UPDATE 9/9/2020: Article updated to highlight study of the population was 2017-2018 that predates SARS-CoV-2 and COVID-19. Since March 2020, ScienceDirect removed the full language of the study from its site meaning the full study is behind a $35.95 paywall. In June 2020, Mr. Wolff published a letter to the editor stating his results should not be construed to mean people should not get an influenza vaccine.
+

@@ -13,12 +13,15 @@ The reason this is relevant is because in order to understand the coronavirus si
 The genomic coding in the virus is not natural, in other words. Just as you would never encounter a snake in the desert that’s writing a book containing words and grammatical structure, the genetic sequences now identified in the coronavirus strain are, without question, proof that human engineers have been tinkering with the strain.
 
 How to genetically engineer viruses: the pShuttle vector
-
 One of the tools used to accomplish this genetic engineering is called pShuttle. It’s a genetic tool set that can carry a payload of genes to be inserted into the target virus.
 
 Researchers engaged in genetic engineering can purchase the pShuttle sequence from online retailers such as AddGenes.org, which sells the sequence for $75, shipped in “bacteria as agar stab.”
 
+
+
 The following map outlines the complete gene sequence of the pShuttle tool:
+
+
 
 The method for using pShuttle is described in a PubMed document entitled, “A simplified system for generating recombinant adenoviruses.”
 
@@ -53,12 +56,9 @@ If the Chinese government has been conducting human trials against SARS. MERS, o
 Brighteon.com/a4d2afed-56c6-4602-b6ab-6f777ba4a69a
 
 Another doctor from Beijing Medical University warns the virus appears to be genetically engineered
-
 Lyons-Weiler is not alone in his assessment of the genetic engineering origins of the coronavirus. Dr. Yuhong Dong, who holds a doctorate degree in infectious diseases from Beijing University, writes in The Epoch Times:
 
 Based on recently published scientific papers, this new coronavirus has unprecedented virologic features that suggest genetic engineering may have been involved in its creation. The virus presents with severe clinical features, thus it poses a huge threat to humans. It is imperative for scientists, physicians, and people all over the world, including governments and public health authorities, to make every effort to investigate this mysterious and suspicious virus in order to elucidate its origin and to protect the ultimate future of the human race.
-
-
 
 Dr. Yuhong reminds us that a Jan. 30 science paper published in The Lancet concludes that, “recombination is probably not the reason for emergence of this virus.” In other words, this did not occur through natural mutations in the wild.
 
@@ -67,7 +67,6 @@ He also points to a Jan. 27th study by five Greek scientists who also concluded 
 A Jan. 27 2020, study by 5 Greek scientists analyzed the genetic relationships of 2019-nCoV and found that “the new coronavirus provides a new lineage for almost half of its genome, with no close genetic relationships to other viruses within the subgenus of sarbecovirus,” and has an unusual middle segment never seen before in any coronavirus. All this indicates that 2019-nCoV is a brand-new type of coronavirus. The study’s authors rejected the original hypothesis that 2019-nCoV originated from random natural mutations between different coronaviruses.
 
 “No bats were sold or found at the Huanan seafood market”
-
 Dr. Yuhong writes about The Lancet study by authors Roujian Lu et al., from the China Key Laboratory of Biosafety, National Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, repeating a quote from that paper:
 
 First, the outbreak was first reported in late December 2019, when most bat species in Wuhan are hibernating. Second, no bats were sold or found at the Huanan seafood market, whereas various non-aquatic animals (including mammals) were available for purchase. Third, the sequence identity between 2019-nCoV and its close relatives bat-SL-CoVZC45 and bat-SL-CoVZXC21 was less than 90%. Hence, bat-SL-CoVZC45 and bat-SL-CoVZXC21 are not direct ancestors of 2019-nCoV.
@@ -82,8 +81,6 @@ Both Lu (in The Lancet paper linked above) and Lyons-Weiler point to the presenc
 
 …despite considerable genetics distance between the Wuhan CoV and the human-infecting SARS-CoV, and the overall low homology of the Wuhan CoV S-protein to that of SARS-CoV, the Wuhan CoV S-protein had several patches of sequences in the receptor binding (RBD) domain with a high homology to that of SARS-CoV. The residues at positions 442, 472, 479, 487, and 491 in SARS-CoV S-protein were reported to be at receptor complex interface and considered critical for cross species and human-to-human transmission of SARS-CoV. So to our surprise, despite replacing four out of five important interface amino acid residues, the Wuhan CoV S-protein was found to have a significant binding affinity to human ACE2. …The Wuhan CoV S-protein and SARS-CoV S-protein shared an almost identical 3-D structure in the RBD domain, thus maintaining similar van der Waals and electrostatic properties in the interaction interface. Thus the Wuhan CoV is still able to pose a significant public health risk for human transmission via the S protein–ACE2 binding pathway. (emphasis added)
 
-
-
 As Dr. Yuhong asks, “How could this novel virus be so intelligent as to mutate precisely at selected sites while preserving its binding affinity to the human ACE2 receptor? How did the virus change just four amino acids of the S-protein? Did the virus know how to use Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) to make sure this would happen?”
 
 It couldn’t happen by chance, in other words. The coronavirus is not a random mutation in the wild. It was engineered.
@@ -92,10 +89,7 @@ Many other scientists around the world are now investigating the gene sequences 
 
 Many of those scientists are being threatened and censored. One paper has so far been forced to be withdrawn and revised, no doubt to remove the key conclusions that point to the genetic engineering origins of the coronavirus, but the proof of its engineering cannot be denied forever.
 
-Brighteon.com/0bddc3da-f590-445e-ac38-9a74e358a57c
-
 Either the coronavirus was genetically engineered, or the science establishment is going to have to throw out the entire field of genomics research and claim it isn’t real
-
 Eventually, the science establishment is either going to have to conclude that this coronavirus strain was engineered, or that all the laws of genetics science don’t work, and gene sequencing is imaginary (sort of like transgenderism by the “progressive” Left, which has already abandoned biological reality).
 
 So far they’ve tried to bamboozle the public into believing this is all some sort of accident from Mother Nature, but that has only worked because most of the public doesn’t understand enough science to counter the official propaganda. However, there are more than enough independent scientists around the world to prove that this pandemic strain was engineered by humans. More evidence is coming out each day.

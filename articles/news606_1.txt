@@ -1,7 +1,6 @@
-Update (March 11, 2020): On social media and news outlets, a theory has circulated that the coronavirus at the root of the COVID-19 outbreak originated in a research lab. Scientists say there is no evidence that the SARS-CoV-2 virus escaped from a lab.
-
-MERS coronavirus flickr, niaid
+Update (March 11, 2020): On social media and news outlets, a theory has circulated that the coronavirus at the root of the COVID-19 outbreak originated in a research lab. Scientists say there is no evidence that the SARS-CoV-2 virus escaped from a lab. 
 
 Ralph Baric, an infectious-disease researcher at the University of North Carolina at Chapel Hill, last week (November 9) published a study on his team’s efforts to engineer a virus with the surface protein of the SHC014 coronavirus, found in horseshoe bats in China, and the backbone of one that causes human-like severe acute respiratory syndrome (SARS) in mice. The hybrid virus could infect human airway cells and caused disease in mice, according to the team’s results, which were published in Nature Medicine.
 
 The results demonstrate the ability of the SHC014 surface protein to bind and infect human cells, validating concerns that...
+

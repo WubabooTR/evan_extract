@@ -1,8 +1,6 @@
-Officers in protective gear enter the cruise ship Diamond Princess, where 10 more people were tested positive for coronavirus on Thursday, to transfer a patient to the hospital after the ship arrived at Daikoku Pier Cruise Terminal in Yokohama, south of Tokyo, Japan February 7, 2020.
+Coronavirus RNA was found on surfaces aboard the DiamondÂ Princess cruise ship up to 17 days after passengers disembarked, lasting far longer on surfaces than previous research has shown, according to new data published Monday by the Centers for Disease Control and Prevention.Â 
 
-Coronavirus RNA was found on surfaces aboard the Diamond Princess cruise ship up to 17 days after passengers disembarked, lasting far longer on surfaces than previous research has shown, according to new data published Monday by the Centers for Disease Control and Prevention.
-
-The study examined the Japanese and U.S. government efforts to contain the COVID-19 outbreaks on the Carnival-owned Diamond Princess ship in Japan and the Grand Princess ship in California. Passengers and crew on both ships were quarantined on board after previous guests, who didn't have any symptoms while aboard each of the ships, tested positive for COVID-19 after landing ashore.
+The study examined the Japanese and U.S. government efforts to contain the COVID-19 outbreaks on the Carnival-owned Diamond Princess ship in Japan and the Grand Princess ship in California. Passengers and crew on both ships were quarantined on board after previous guests, who didn'tÂ  have any symptoms while aboard each of the ships, tested positive for COVID-19 after landing ashore.
 
 The RNA, the genetic material of the virus that causes COVID-19, "was identified on a variety of surfaces in cabins of both symptomatic and asymptomatic infected passengers up to 17 days after cabins were vacated on the Diamond Princess but before disinfection procedures had been conducted," the researchers wrote, adding that the finding doesn't necessarily mean the virus spread by surface.
 
@@ -10,8 +8,20 @@ The CDC said researchers couldn't "determine whether transmission occurred from 
 
 "COVID-19 on cruise ships poses a risk for rapid spread of disease, causing outbreaks in a vulnerable population, and aggressive efforts are required to contain spread," the CDC wrote, reiterating its guidance to vulnerable populations to avoid cruises during the pandemic.
 
-Researchers from the National Institutes of Health, CDC, UCLA and Princeton University previously found that COVID-19 can last up to three days on plastic and stainless steel. That study also found that the amount of the virus left on those surfaces decreased over time.
+Researchers from the National Institutes of Health, CDC, UCLA and Princeton University previously found that COVID-19 can last up to three days on plastic and stainless steel. That study also found that the amount of the virus left on those surfaces decreased over time.Â 
 
 The new study set out to determine how "transmission occurred across multiple voyages of several ships." They noted that as of March 17, there were at least 25 cruise ship voyages with confirmed COVID-19 cases that were detected either during or after the cruise ended.
 
 Almost half, 46.5%, of the infections aboard the Diamond Princess were asymptomatic when they were tested, partially explaining the "high attack rate" of the virus among passengers and crew.
+
+TheÂ Diamond Princess and its 3,700 passengers and crew were quarantined at a Japanese port on Feb. 4Â after a previous passenger was diagnosed with COVID-19 after he returned to Hong Kong. The ship quickly became what was at the time the largest cluster of confirmed COVID-19 cases outside of China with more than 800 passengers and crew eventually becoming infected.
+
+Nine people died after disembarking the ship. The Japanese government and other nations eventually evacuated their citizens.
+
+The researchers found that 712 of 3,711 people on the Diamond Princess, or 19.2% were infected by COVID-19.
+
+The other ship included in the study, the Grand Princess, was forced to moor off the coast of California after two patients who had disembarked in California tested positive.Â A total of 78 cases were eventually tied back to the ship across two separate voyages. After several days, California officials brought the ship to the Port of Oakland, where passengers disembarked and were transported to federal quarantine facilities.
+
+The Diamond Princess and Grand Princess accounted for more than 800 total COVID-19 cases, including 10 deaths.
+
+Correction: This story was updated to reflect thatÂ SARS-CoV-2 RNA, not live virus, was identified on surfaces in cruise ship cabins up to 17 days after cabins were vacated on the Diamond Princess.

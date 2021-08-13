@@ -1,99 +1,55 @@
 With masks in short supply, many people are being forced to re-use masks. That means the idea of microwaving masks has gone from a crazy-sounding idea to a critically practical question.
 
 Does Microwaving Masks Deactivate The Coronavirus?
-
 Another reason this question is critical: Smart Air tests found that washing N95 masks with soap and water cut particle capture effectiveness by 21%. Other tests found that even just dipping in alcohol (no rubbing involved) harmed performance.
-
-<img src="/wordpress/wp-content/uploads/2020/03/Washing-N95-Mask-Water-Soap-Effectiveness-Virus.jpg" alt="" width="500" height="311" class="wp-image-10011 aligncenter" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/Washing-N95-Mask-Water-Soap-Effectiveness-Virus.jpg 799w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/Washing-N95-Mask-Water-Soap-Effectiveness-Virus-300x187.jpg 300w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/Washing-N95-Mask-Water-Soap-Effectiveness-Virus-768x478.jpg 768w" sizes="(max-width: 500px) 100vw, 500px" />
 
 To get to the bottom of it, Smart Air was dumb enough to test it by actually microwaving masks! To start, let’s break this question down into two simpler questions.
 
 WATCH: Can Microwaving Masks Disinfect them from Viruses?
 
-
-
-Can Microwaving Masks Disinfect Them From Viruses? <a href="https://youtu.be/Xy76wMDWa0Y"><img src="https://i.ytimg.com/vi/Xy76wMDWa0Y/0.jpg" alt="Can Microwaving Masks Disinfect Them From Viruses?" width="640" height="340" /><br />Watch this video on YouTube</a>
-
 1. Does Microwaving Deactivate Viruses?
-
 First, let’s take a look at whether household microwaves can actually kill viruses (stern scientists out there are shouting “inactivate,” since viruses aren’t technically alive). Researchers in Germany tested whether microwaving syringes and cigarette filters could deactivate the viruses behind hepatitis C and HIV.
-
-<img src="/wordpress/wp-content/uploads/2020/04/Microwaving-cigarette-filters-and-syringes-to-kill-covid19-coronavirus.jpg" alt="Microwaving cigarette filters and syringes to kill covid19 coronavirus" width="600" height="263" class="aligncenter size-full wp-image-10087" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-cigarette-filters-and-syringes-to-kill-covid19-coronavirus.jpg 600w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-cigarette-filters-and-syringes-to-kill-covid19-coronavirus-300x132.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" />
 
 Why cigarettes and syringes? Because drug addicts often use cigarettes and syringes, and they can get infected through them.
 
 Researchers contaminated cigarette filters and the plastic part of syringes with Hepatitis C or HIV. Then they microwaved them for 3 minutes at different power levels.
 
-<img src="/wordpress/wp-content/uploads/2020/04/Microwave-time-and-power-to-kill-HIV-hepatitis-viruses-clean-1024x739.jpg" alt="Microwave time and power to kill HIV hepatitis viruses clean" width="648" height="468" class="aligncenter size-large wp-image-10088" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwave-time-and-power-to-kill-HIV-hepatitis-viruses-clean-1024x739.jpg 1024w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwave-time-and-power-to-kill-HIV-hepatitis-viruses-clean-300x217.jpg 300w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwave-time-and-power-to-kill-HIV-hepatitis-viruses-clean-768x554.jpg 768w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwave-time-and-power-to-kill-HIV-hepatitis-viruses-clean.jpg 1280w" sizes="(max-width: 648px) 100vw, 648px" />
-
 The results showed that microwaving at 360 watts for 3 minutes was enough to deactivate the vast bulk of the virus.
 
-<img src="/wordpress/wp-content/uploads/2020/04/Microwaving-for-3-minutes-kill-HIV-and-Hepatitis-C-viruses-but-not-coronavirus.jpg" alt="Microwaving for 3 minutes kill HIV and Hepatitis C viruses but not coronavirus" width="900" height="409" class="aligncenter wp-image-10124 size-full" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-for-3-minutes-kill-HIV-and-Hepatitis-C-viruses-but-not-coronavirus.jpg 900w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-for-3-minutes-kill-HIV-and-Hepatitis-C-viruses-but-not-coronavirus-300x136.jpg 300w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-for-3-minutes-kill-HIV-and-Hepatitis-C-viruses-but-not-coronavirus-768x349.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" />
-
 To be on the safe side, the researchers recommended microwaving at 600 watts for 2 minutes or longer. The good news is that most household microwaves on high can cook at 600 watts.
-
-<img src="/wordpress/wp-content/uploads/2020/04/conclusion-on-microwaving-items-to-kill-and-disinfect-viruses.jpg" alt="conclusion on microwaving items to kill and disinfect viruses" width="600" height="158" class="aligncenter wp-image-10125" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/conclusion-on-microwaving-items-to-kill-and-disinfect-viruses.jpg 710w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/conclusion-on-microwaving-items-to-kill-and-disinfect-viruses-300x79.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" />
-
-But What About Coronaviruses?
 
 The researchers in Germany tested the effects of microwaving on Hepatitis C and HIV viruses, not coronaviruses. Although there isn’t research on microwaving Covid-19, scientists have tested this with human parainfluenza, an RNA virus similar to the coronavirus that infects humans.
 
 These scientists put viruses on plastic petri dishes and microwaved them on high for 20 to 200 seconds.
 
-<img src="/wordpress/wp-content/uploads/2020/04/Petri-dish.jpg" alt="" width="354" height="288" class=" wp-image-10111 aligncenter" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Petri-dish.jpg 512w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Petri-dish-300x244.jpg 300w" sizes="(max-width: 354px) 100vw, 354px" />
-
-The data showed that microwaving for 3 minutes was enough to deactivate polio and parainfluenza viruses. <img src="/wordpress/wp-content/uploads/2020/04/Microwaving-parainfluenza-for-3-minutes-kills-virus.jpg" alt="Microwaving parainfluenza for 3 minutes kills virus" width="599" height="391" class="aligncenter wp-image-10090" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-parainfluenza-for-3-minutes-kills-virus.jpg 992w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-parainfluenza-for-3-minutes-kills-virus-300x196.jpg 300w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-parainfluenza-for-3-minutes-kills-virus-768x501.jpg 768w" sizes="(max-width: 599px) 100vw, 599px" />
+The data showed that microwaving for 3 minutes was enough to deactivate polio and parainfluenza viruses.
 
 What is ‘600W’, and Does My Microwave Meet the Spec?
-
 The ‘600W’ the scientists used to zap viruses refers to the power of the microwave. You can think of this as the ‘Low’, ‘Medium’ and ‘High’ settings on your microwave. Most household microwaves on the ‘high’ have an output of 700-1200W, so it’s quite likely your microwave will meet the spec. To be doubly sure, you can check the sticker on the back of your microwave.
 
-<img src="/wordpress/wp-content/uploads/2020/04/Microwave-power-for-disinfecting-viruses-wattage.jpg" alt="Microwave power for disinfecting viruses wattage" width="398" height="295" class="aligncenter size-full wp-image-10215" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwave-power-for-disinfecting-viruses-wattage.jpg 398w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwave-power-for-disinfecting-viruses-wattage-300x222.jpg 300w" sizes="(max-width: 398px) 100vw, 398px" />
-
 2. OK, But Does Microwaving Masks Harm Performance?
-
 OK, tests showed that microwaving can disinfect viruses from materials, but in the case of masks, we need to know if it harms the performance of the mask. To test this, Smart Air’s chief engineer Paddy took a used 3M N95 mask, and commandeered the microwave in the Smart Air kitchen.
-
-<img src="/wordpress/wp-content/uploads/2020/04/Microwave-N95-mask-to-disinfect-from-coronavirus-efficiency-1.jpg" alt="Microwave N95 mask to disinfect from coronavirus efficiency" width="499" height="439" class="aligncenter wp-image-10092" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwave-N95-mask-to-disinfect-from-coronavirus-efficiency-1.jpg 900w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwave-N95-mask-to-disinfect-from-coronavirus-efficiency-1-300x264.jpg 300w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwave-N95-mask-to-disinfect-from-coronavirus-efficiency-1-768x675.jpg 768w" sizes="(max-width: 499px) 100vw, 499px" />
 
 One problem with microwaving N95 masks: Paddy had to remove all the nose bar and the metal clips. Obviously this isn’t ideal. After removing the metal bits from the mask, the N95 mask became pretty much unusable. If your mask contains metal parts, then you may well end up having to destroy it before it even gets into the microwave. However, the are some masks that don’t contain any metal parts, especially many of the DIY masks that people are using right now.
 
-<img src="/wordpress/wp-content/uploads/2020/03/image7.jpg" alt="Homemade DIY cotton mask tests testing how long you can use them for" width="290" height="386" class="wp-image-9696 aligncenter" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/image7.jpg 500w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/image7-225x300.jpg 225w" sizes="(max-width: 290px) 100vw, 290px" />
-
 To test the effect of microwaving, Paddy microwaved the 3M N95 mask on high for 3 minutes.
-
-<img src="/wordpress/wp-content/uploads/2020/04/Put-mask-in-microwave-to-kill-coronavirus-Covid19-virus.gif" alt="Put mask in microwave to kill coronavirus Covid19 virus" width="640" height="363" class="aligncenter size-full wp-image-10093" />
 
 After about 2 minutes, the microwave started smelling. Not wanting to give up, Paddy persevered!
 
 After 3 minutes in the microwave and then waiting for the mask to cool down, Paddy took a Met One GT-521, and tested how well the mask was able to capture 0.3 micron particles. This particle size is important to test because it’s typically the most difficult size to capture.
 
-<img src="/wordpress/wp-content/uploads/2020/03/Paper-towel-test-at-capturing-virus-sized-particles.jpeg" alt="Paper towel test at capturing virus-sized particles" width="540" height="405" class="wp-image-9795 aligncenter" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/Paper-towel-test-at-capturing-virus-sized-particles.jpeg 1440w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/Paper-towel-test-at-capturing-virus-sized-particles-300x225.jpeg 300w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/Paper-towel-test-at-capturing-virus-sized-particles-768x576.jpeg 768w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/Paper-towel-test-at-capturing-virus-sized-particles-1024x768.jpeg 1024w" sizes="(max-width: 540px) 100vw, 540px" />
-
-Read more: How effective paper towel is for making DIY masks.
-
 Surprisingly, microwaving the mask did not harm the mask’s filtration effectiveness.
-
-<img src="/wordpress/wp-content/uploads/2020/04/Microwaving-Does-Not-Harm-Mask-Filtration-Effectiveness.jpg" alt="Microwaving Masks Does Not Harm Performance" width="597" height="532" class="aligncenter wp-image-10114" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-Does-Not-Harm-Mask-Filtration-Effectiveness.jpg 2100w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-Does-Not-Harm-Mask-Filtration-Effectiveness-300x267.jpg 300w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-Does-Not-Harm-Mask-Filtration-Effectiveness-768x684.jpg 768w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-Does-Not-Harm-Mask-Filtration-Effectiveness-1024x912.jpg 1024w" sizes="(max-width: 597px) 100vw, 597px" />
 
 If anything, microwaving slightly increased particle capture.
 
 One Good Reason NOT to Start Microwaving Masks
-
 Microwaving masks is dangerous. For one, microwaving can melt the material. What’s more, The Guardian reported that a man in the UK started a fire when he put a dishcloth in the microwave to sanitize it.
 
-<img src="/wordpress/wp-content/uploads/2020/04/Microwaving-Mask-Set-Fire.jpg" alt="Microwaving Masks Dangerous" width="565" height="303" class="aligncenter wp-image-10112" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-Mask-Set-Fire.jpg 2220w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-Mask-Set-Fire-300x161.jpg 300w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-Mask-Set-Fire-768x411.jpg 768w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/04/Microwaving-Mask-Set-Fire-1024x548.jpg 1024w" sizes="(max-width: 565px) 100vw, 565px" />
-
-Bottom Line: Microwaving Masks to Deactivate Viruses Microwaving at 600 watts for 3 minutes deactivates viruses. However, it’s not recommended on removing metal parts in case of melting or even catching on fire.
+Bottom Line: Microwaving Masks to Deactivate Viruses
+Microwaving at 600 watts for 3 minutes deactivates viruses. However, it’s not recommended on removing metal parts in case of melting or even catching on fire.
 
 Smart Air
-
 Instead, there are other ways of disinfecting masks without creating a fire hazard.
 
-Read more: This data-backed method reliably disinfects masks without harming performance.
-
-<img src="/wordpress/wp-content/uploads/2020/03/disinfect-n95-mask-wash-alcohol-viruses.jpg" alt="Disinfect N95 mask wash alcohol viruses" width="576" height="320" class="wp-image-10043 aligncenter" srcset="https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/disinfect-n95-mask-wash-alcohol-viruses.jpg 900w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/disinfect-n95-mask-wash-alcohol-viruses-300x167.jpg 300w, https://smartairfilters.com/wordpress/wp-content/uploads/2020/03/disinfect-n95-mask-wash-alcohol-viruses-768x427.jpg 768w" sizes="(max-width: 576px) 100vw, 576px" />
-
 P.S. How exactly does microwaving deactivate viruses?
-
 In their report, the German scientists explained that temperatures of 56–60° C are enough to inactivate Hepatitis C viruses. Coming soon: How hot do you have to heat things up to inactivate Covid-19?

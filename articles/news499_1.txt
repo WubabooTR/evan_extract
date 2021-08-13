@@ -11,3 +11,7 @@ CNN reported at the time:
 Since the H1N1 flu pandemic began in April, millions of people in the United States have been infected, at least 20,000 have been hospitalized and more than 1,000 have died, said Dr. Thomas Frieden, director of the Centers for Disease Control and Prevention. [emphasis added]
 
 Furthermore, the CDC’s Frieden fretted at the time that efforts to create a vaccine had stumbled:
+
+“We are nowhere near where we thought we would be,” Frieden said, acknowledging that manufacturing delays have contributed to less vaccine being available than expected. “As public health professionals, vaccination is our strongest tool. Not having enough is frustrating to all of us.”
+
+Frieden said that while the way vaccine is manufactured is “tried and true,” it’s not well-suited for ramping up production during a pandemic because it takes at least six months. The vaccine is produced by growing weakened virus in eggs.
