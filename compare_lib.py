@@ -3,6 +3,7 @@ import trafilatura
 from newspaper import Article
 from newspaper import fulltext
 from extract_text import Extract
+import cetr_test
 
 from datetime import datetime
 import requests
@@ -93,13 +94,27 @@ def evan(url = None, html= None):
         return d
     except:
         return dict([('text', None), ('title', None)])
+
+# CETR
+def cetr(url = None, html = None):
+    if not html:
+        return dict([('text', None), ('title', None)])
+    try:
+        d = {}
+        content = cetr_test.cetr_extract(html)
+        d["title"] = None
+        d["text"] = content
+        return d
+    except:
+        return dict([('text', None), ('title', None)])
+
     
 # open_file(str) -> str
 # Given a string path, opens the relevant file and return its contents
 # If the file does not exist, returns None
 def open_file(file):
     try:
-        f = codecs.open(file, 'r')
+        f = codecs.open(file, 'r', encoding = 'utf-8')
         res = f.read()
         f.close()
         return res
@@ -125,7 +140,7 @@ def matches(s1, s2):
 ## true values in html article
 def compare(html, true_res):
     libs = {'trafilatura': trafila, 'boilerpy3': boiler, 
-            'newspaper3k': newspaper, 'evan': evan}
+            'newspaper3k': newspaper, 'evan': evan, 'cetr': cetr}
     res = {}
     for lib in libs:
         start_time = datetime.now()
@@ -155,17 +170,24 @@ res = pd.DataFrame([compare(html1, open_file('climate_change.txt')),
                     compare(html3, open_file('lead.txt'))])
 
 '''
-df = pd.DataFrame()
+
+res = []
 
 files = os.listdir('./articles')
 files = [f[:-len('.txt')] for f in files if f.endswith('.txt')]
+
 
 i = 0
 for file in files:
     i += 1
     text = './articles/{}.txt'.format(file)
     html = './articles/{}.html'.format(file)
-    row = compare(open_file(html), open_file(text))
-    df = df.append(row, ignore_index = True)
+    #row = compare(open_file(html), open_file(text))
+    row = cetr(html = open_file(html))
+    row['file'] = file
+    res.append(row)
+    #df = df.append(row, ignore_index = True)
+
+df = pd.DataFrame(res)
 
 
