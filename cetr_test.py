@@ -62,7 +62,7 @@ def get_tr(line):
     return len(no_tags) / len(tags)
 
 # Smooth a list of values
-def smooth(y, box_pts= 5):
+def smooth(y, box_pts= 10):
     box = np.ones(box_pts)/ box_pts
     y_smooth = np.convolve(y, box, mode ='same')
     
@@ -127,24 +127,37 @@ def cleanhtml(raw_html):
     cleantext = re.sub(cleanr, '', raw_html)
     return cleantext
 
+# remove remaining tags, excess backslashes (\) and non ascii characters
+def clean_string(s):
+    res = s
+    res = re.sub('<.*?>', ' ', s)
+    res = re.sub('\xa0', ' ', s)
+    res = re.sub("\\\\", '', s)
+    return res
+
 
 def cetr_extract(html_file):
     lines = get_lines(html_file)
     trs = [get_tr(l) for l in lines]
-    smoothed = smooth(trs, 5)
-    plt.plot(trs, color = 'red', alpha = 0.3)
+    smoothed = smooth(trs)
+    #plt.plot(trs, color = 'red', alpha = 0.3)
+    #plt.plot(smoothed, color = 'blue', alpha = 0.3)
+    der = get_abs_deriv(smoothed)
+    content = ''
+    while not content:
+        clusters = cluster([smoothed, der])
+        content_rows = get_content_rows(lines, clusters)
+        content = [cleanhtml(html.unescape(row)).strip() for row in content_rows]
+        content = clean_string(' '.join(content)).strip()
+        content_indices = [i for i,x in enumerate(list(clusters)) if x]
+        smoothed = [x for i,x in enumerate(smoothed) if i not in content_indices]
+        der = [x for i,x in enumerate(der) if i not in content_indices]
     plt.plot(smoothed, color = 'blue', alpha = 0.3)
-    der = get_abs_deriv(trs)
-    clusters = cluster([smoothed, der])
-    content_rows = get_content_rows(lines, clusters)
-    content = [cleanhtml(html.unescape(row)).strip() for row in content_rows]
-    #content = [html.unescape(cleanhtml(row)).strip() for row in content_rows]
-    return ' '.join(content)
+    return content
 
-'''['climate_change', 'news253_1', 'news366_1', 'news483_1']'''
 
-file = './articles/news253_1.html'
-text = './articles/news253_1.txt'
+file = './articles/news374_1.html'
+text = './articles/news374_1.txt'
 with open(file, 'r', encoding = 'utf-8') as f:
     html_file = f.read()
-print(''.join(cetr_extract(html_file)))
+print(cetr_extract(html_file))

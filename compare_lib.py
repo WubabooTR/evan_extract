@@ -185,6 +185,7 @@ for file in files:
     #row = compare(open_file(html), open_file(text))
     row = cetr(html = open_file(html))
     row['file'] = file
+    row['ratio'] = matches(row['text'], open_file(text))[1]
     res.append(row)
     #df = df.append(row, ignore_index = True)
 
