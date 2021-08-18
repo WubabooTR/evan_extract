@@ -14,6 +14,18 @@ import html
 
 '''Attempting Content Extraction with CETR Algorithm
 http://hanj.cs.illinois.edu/pdf/www10_tweninger.pdf
+
+1. Get HTML
+2. Clean SCRIPT and STYLE tags
+3. Split HTML by line
+4. For each line, calculate Tag Ratio (Ratio of text to number of tags in the line)
+    - Content lines are hypothesized to have a higher Tag Ratio
+5.Create a histogram of Tag Ratios 
+6. Smooth the histogram
+7. Calculate an approximation of the derivatives
+8. Use derivatives and smoothed Tag Ratios as 2 features for K-Means Clustering
+    - 1 centroid is set to (0,0) 0 tag ratio, and 0 derivative for non-content lines
+9. Remove tags and clean from lines classified as content
 '''
 
 # Remove style and script tags
@@ -34,20 +46,23 @@ def remove_tags(line):
 
 # Get the individual lines of the HTML as a list, stripping style and script tags
 def get_lines(html):
+    # Clean the script and style tags with lxml.html.clean.Cleaner
     temp_fname = 'temp_cleaned.html'
     etree = lxml.html.fromstring(html)
     c = Cleaner()
     c.scripts = True
     c.style = True
     cleaned = c.clean_html(etree)
+    # Push new html to a temp file
     with codecs.open(temp_fname, 'w', encoding = 'utf-8') as f:
         f.write(lxml.html.tostring(cleaned, pretty_print = True).decode('utf-8'))
+    # Read from temp file and do some more cleaning
     with codecs.open(temp_fname, 'r', encoding = 'utf-8') as f:
         lines = f.readlines()
     lines = [remove_tags(l) for l in lines]
     lines = [l.strip() for l in lines]
     lines = [l for l in lines if len(l) > 0]
-    
+    # Delete temp file
     os.remove(temp_fname)
     return lines
 
@@ -70,6 +85,7 @@ def smooth(y, box_pts= 10):
     #plt.plot(y, color = 'red')
     return y_smooth
 
+# Get an approximation for the derivatives (Absolute Smoothed Derivatives)
 def get_abs_deriv(y, alpha = 3):
     res = []
     for i in range(len(y) - alpha):
@@ -83,6 +99,7 @@ def get_abs_deriv(y, alpha = 3):
     #plt.plot(res, color = 'green')
     return res
 
+## 2-Means Clustering
 # y is [[attr1], [attr2]]
 def cluster(y, iterations = 500):
     # Make all columns same length
@@ -101,7 +118,6 @@ def cluster(y, iterations = 500):
     distances = cdist(arr, [c1, c2], 'euclidean')
     cluster = np.array([np.argmin(i) for i in distances])
     
-    
     prev = cluster
     for i in range(iterations):
         centroids = [c1, arr[cluster == 1].mean(axis = 0)]
@@ -114,7 +130,8 @@ def cluster(y, iterations = 500):
             break
         prev = cluster
     return cluster
-    
+
+# Given the lines and clusters, get the lines classified as content 
 def get_content_rows(lines, clusters):
     res = []
     for i in range(len(clusters)):
@@ -122,12 +139,13 @@ def get_content_rows(lines, clusters):
             res.append(lines[i])
     return res
 
+# Remove tags from html string
 def cleanhtml(raw_html):
     cleanr = re.compile('<.*?>')
     cleantext = re.sub(cleanr, '', raw_html)
     return cleantext
 
-# remove remaining tags, excess backslashes (\) and non ascii characters
+# remove remaining tags, excess backslashes (\) and \xa0 tag
 def clean_string(s):
     res = s
     res = re.sub('<.*?>', ' ', s)
@@ -135,7 +153,7 @@ def clean_string(s):
     res = re.sub("\\\\", '', s)
     return res
 
-
+# mai
 def cetr_extract(html_file):
     lines = get_lines(html_file)
     trs = [get_tr(l) for l in lines]
@@ -144,6 +162,8 @@ def cetr_extract(html_file):
     #plt.plot(smoothed, color = 'blue', alpha = 0.3)
     der = get_abs_deriv(smoothed)
     content = ''
+    # If the content is empty, remove the lines predicted in the previous cluster
+    # make new clusters
     while not content:
         clusters = cluster([smoothed, der])
         content_rows = get_content_rows(lines, clusters)
@@ -155,9 +175,10 @@ def cetr_extract(html_file):
     plt.plot(smoothed, color = 'blue', alpha = 0.3)
     return content
 
-
+''' Test with a sample file
 file = './articles/news374_1.html'
 text = './articles/news374_1.txt'
 with open(file, 'r', encoding = 'utf-8') as f:
     html_file = f.read()
 print(cetr_extract(html_file))
+'''

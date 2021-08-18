@@ -156,38 +156,25 @@ def compare(html, true_res):
         res[lib + '_lendiff'] = text_len - len(true_res)
         
     return res
-    
-libs = ['trafilatura', 'boilerpy3', 'newspaper3k', 'evan']
-''' sample htmls
-url1 ='https://www.reuters.com/business/environment/un-sounds-clarion-call-over-irreversible-climate-impacts-by-humans-2021-08-09/'
-url2 = 'https://www.infowars.com/posts/he-takes-care-of-the-little-girls-leon-blacks-ex-mistress-shares-explosive-new-details-about-best-friend-jeffrey-epstein/'
-url3 = 'https://leadstories.com/hoax-alert/2021/07/fact-check-study-does-not-prove-that-face-masks-are-dangerous-for-children.html'
-html1 = requests.get(url1).text
-html2 = requests.get(url2).text
-html3 = requests.get(url3).text
-res = pd.DataFrame([compare(html1, open_file('climate_change.txt')), 
-                    compare(html2, open_file('epstein.txt')),
-                    compare(html3, open_file('lead.txt'))])
-
-'''
 
 res = []
-
 files = os.listdir('./articles')
 files = [f[:-len('.txt')] for f in files if f.endswith('.txt')]
-
 
 i = 0
 for file in files:
     i += 1
     text = './articles/{}.txt'.format(file)
     html = './articles/{}.html'.format(file)
-    #row = compare(open_file(html), open_file(text))
-    row = cetr(html = open_file(html))
+    row = compare(open_file(html), open_file(text))
+    
     row['file'] = file
-    row['ratio'] = matches(row['text'], open_file(text))[1]
+    
+    '''test cetr'''
+    #row = cetr(html = open_file(html))
+    #row['ratio'] = matches(row['text'], open_file(text))[1]
+    
     res.append(row)
-    #df = df.append(row, ignore_index = True)
 
 df = pd.DataFrame(res)
 

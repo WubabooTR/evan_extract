@@ -7,18 +7,19 @@ import io
 import difflib
 
 
+
+'''
+evan's simple text extraction attempt.
+Using:
+    - text lengths of hardcoded tags.
+    - neighbours and parents of nodes.
+'''
+    
+
 url ='https://www.reuters.com/business/environment/un-sounds-clarion-call-over-irreversible-climate-impacts-by-humans-2021-08-09/'
 #url = 'https://www.infowars.com/posts/he-takes-care-of-the-little-girls-leon-blacks-ex-mistress-shares-explosive-new-details-about-best-friend-jeffrey-epstein/'
 #url = 'https://leadstories.com/hoax-alert/2021/07/fact-check-study-does-not-prove-that-face-masks-are-dangerous-for-children.html'
 file = requests.get(url).text
-
-'''
-parser = etree.HTMLParser()
-tree = etree.parse(StringIO(file), parser)
-root = tree.getroot()
-'''
-
-text_tags = ['a', 'p', 'strong']
 
 class Extract():
     def __init__(self, html, text_tags = []):
@@ -116,60 +117,6 @@ class Extract():
     - more tags
     - find a way to determine which text tags are used
     '''
-    
-'''
-# Get all elements with text with at least 2 words and 3 similar neighbours
-def search(root, text_tags = text_tags):
-    text_elements = []
-    text_text = []
-    for e in root.iter(text_tags):
-        content = ''
-        if e.text: 
-            content += e.text
-        if e.tail: 
-            content += e.tail
-        if len(content.split()) > 1 and (neighbours(e) > 2 or check_parent(e)):
-            text_elements.append(e)
-            text_text.append(content)
-    return text_elements, text_text
-        
-# Get a dictionary with counts of all the tags in the html
-def get_tags(root):
-    tags = defaultdict(int)
-    for e in root.iter():
-        tags[e.tag] += 1
-    return tags
-
-# Calculate the link density of an element
-def calc_link_density(element):
-    links = 0
-    for e in element:
-        return
-
-# Check if the parent tag is in the list
-def check_parent(element, text_tags):
-    par = element.getparent()
-    if par is not None and par.tag in text_tags:
-        return True
-    return False
-
-# Calc number of neighbours with matching tags
-def neighbours(element, neigh_distance = 3, text_tags = text_tags):
-    def neighbour_check(element):
-        if element is not None and element.tag in text_tags:
-            return True
-    text_counts = 0
-    prev_e = element
-    next_e = element
-    for i in range(neigh_distance):
-        prev_e = element.getprevious()
-        next_e = element.getnext()
-        if neighbour_check(prev_e):
-            text_counts += 1
-        if neighbour_check(next_e):
-            text_counts += 1
-    return text_counts
-'''
 
 
 def open_sample(fname):
