@@ -9,7 +9,7 @@ Comparing new article content extraction libraries + methods
   - Basic tag filtering
     - in extract_text.py
   - CETR Algorithm: 
-    -http://hanj.cs.illinois.edu/pdf/www10_tweninger.pdf
+    - http://hanj.cs.illinois.edu/pdf/www10_tweninger.pdf
     - in cetr_test.py
 
 ### Articles
