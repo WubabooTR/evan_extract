@@ -6,9 +6,9 @@ Comparing new article content extraction libraries + methods
     - https://github.com/Autonomiq/BoilerPy3
   - **Newspaper3k: **
     - https://newspaper.readthedocs.io/en/latest/
-  - **Basic tag filtering**
+  - **Basic tag filtering:**
     - in extract_text.py
-  - **CETR Algorithm: **
+  - **CETR Algorithm:**
     - http://hanj.cs.illinois.edu/pdf/www10_tweninger.pdf
     - in cetr_test.py
 
