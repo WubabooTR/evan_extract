@@ -11,6 +11,7 @@ import difflib
 import codecs 
 import pandas as pd
 import os
+import numpy as np
 
 ## trafila(str, str) -> dict
 ## Given a url or an html, uses the Trafilatura library to 
@@ -83,11 +84,11 @@ def newspaper(url = None, html = None):
         return dict([('text', None), ('title', None)])
 
 # Evan's
-def evan(url = None, html= None):
+def evan(url = None, html= None, threshold = 0.2):
     if not html:
         return dict([('text', None), ('title', None)])
     try:
-        e = Extract(html)
+        e = Extract(html, threshold = threshold)
         d = {}
         d["title"] = None
         d["text"] = e.clean_text
@@ -161,9 +162,9 @@ res = []
 files = os.listdir('./articles')
 files = [f[:-len('.txt')] for f in files if f.endswith('.txt')]
 
-i = 0
+j = 0
 for file in files:
-    i += 1
+    j += 1
     text = './articles/{}.txt'.format(file)
     html = './articles/{}.html'.format(file)
     row = compare(open_file(html), open_file(text))
@@ -173,6 +174,13 @@ for file in files:
     '''test cetr'''
     #row = cetr(html = open_file(html))
     #row['ratio'] = matches(row['text'], open_file(text))[1]
+    
+    
+    '''test evan_extract'''
+    #row = {}
+    #for i in np.arange(0.05, 0.2, 0.02):
+    #    row['text_' + str(i)[:4]] = evan(html = open_file(html), threshold = i)['text']
+    #    row['ratio_' + str(i)[:4]] = matches(row['text_' + str(i)[:4]], open_file(text))[1]
     
     res.append(row)
 

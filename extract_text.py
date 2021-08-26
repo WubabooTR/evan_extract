@@ -5,14 +5,16 @@ import requests
 from io import StringIO
 import io
 import difflib
-
-
-
+import re
+from collections import OrderedDict
+import numpy as np
+import matplotlib.pyplot as plt
 '''
 evan's simple text extraction attempt.
 Using:
     - text lengths of hardcoded tags.
     - neighbours and parents of nodes.
+    - text densities
 '''
     
 
@@ -22,7 +24,7 @@ url ='https://www.reuters.com/business/environment/un-sounds-clarion-call-over-i
 file = requests.get(url).text
 
 class Extract():
-    def __init__(self, html, text_tags = []):
+    def __init__(self, html, text_tags = [], threshold = 0.2):
         self.html = html
         self.root = lxml.html.fromstring(html)
         
@@ -30,6 +32,7 @@ class Extract():
         if not len(self.text_tags): 
             self.text_tags = ['a', 'p', 'strong', 'b', 'em', 'span']
         
+        self.threshold = threshold
         self.parent_tags = self.text_tags + ['blockquote']
         
         self.neigh = self.parent_tags + ['figure', 'header', 'footer']
@@ -43,16 +46,18 @@ class Extract():
     def search(self):
         text_elements = []
         text_text = []
+        self.scores = []
+        self.all_checked = []
         for e in self.root.iter(self.text_tags):
-            content = self.get_element_content(e)
-            content = content.strip()
-            ''' # All checked tags
-            self.tags[e] = {}
-            self.tags[e]['content'] = content
-            self.tags[e]['neighbours'] = self.neighbours(e)
-            self.tags[e]['parent'] = self.check_parent(e)
+            self.all_checked.append(e)
+            score = self.classify(e)
+            if score:
+                text_elements.append(e)
+                text_text.append(self.get_element_content(e))
+            self.scores.append(score)
             '''
-            
+            content = self.get_element_content(e)
+    
             # Ignore elements with no children, and little content
             if len(e) == 0 and len(self.get_element_content(e).split()) < 5:
                 continue
@@ -64,8 +69,33 @@ class Extract():
             (len(content.split()) > 0 and (self.check_parent(e) or self.neighbours(e) > 1)):
                 text_elements.append(e)
                 text_text.append(content)
+            '''
+        self.scores = self.smooth(self.scores)
+        text_elements = [self.all_checked[i] for i in range(len(self.scores)) if self.scores[i] > self.threshold]
+        text_text = [self.get_element_content(i) for i in text_elements]
         return text_elements, text_text
     
+    # Smooth a list of values
+    def smooth(self, y, box_pts= 10):
+        box = np.ones(box_pts)/ box_pts
+        y_smooth = np.convolve(y, box, mode ='same')
+        
+        plt.plot(y_smooth, color = 'blue')
+        plt.plot(y, color = 'red')
+        return y_smooth
+    
+    # Classify node as content or not content
+    def classify(self, e):
+        content = self.get_element_content(e)
+        if len(e) == 0 and len(content.split()) < 5:
+            return 0
+        elif (self.text_density(e) > 0.3):
+            return 1
+        elif self.neighbours(e) > 1 or self.check_parent(e):
+            return 0.5
+        else:
+            return 0
+        
     # Get the text and tail content of the element
     def get_element_content(self, e):
         content = ''
@@ -73,14 +103,25 @@ class Extract():
             content += e.text
         if e.tail:
             content += e.tail
-        return content
+        return trim(content)
     
-    # Get a dictionary with counts of all the tags in the html
-    def get_tags(self):
+    # Get length of all text in the elemnet (including children's text)
+    def get_all_text_len(self, e):
+        if len(e) == 0:
+            return len(self.get_element_content(e))
+        children_len = 0
+        for child in e:
+            children_len += self.get_all_text_len(child)
+        return len(self.get_element_content(e)) + children_len
+    
+    # Get a dictionary with counts of all the tags under the root
+    def get_tags(self, e):
         tags = defaultdict(int)
+        total = 0
         for e in self.root.iter():   
             tags[e.tag] += 1
-        return tags
+            total += 1
+        return tags, total
     
     # Check if the parent tags is a specified tag
     def check_parent(self, e):
@@ -111,13 +152,30 @@ class Extract():
         self.clean_text = list(map(lambda s: s.strip(), self.text_text))
         self.clean_text = ''.join(self.clean_text)
     
-    ''' to add
+    # text density is defined as:
+    # (total characters in subtree) / (total number of tags in the subtree (=1 if it is 0))
+    def text_density(self, e):
+        elem_len = self.get_all_text_len(e)
+        tags = max(1, self.get_tags(e)[1])
+        return elem_len / tags
+
     
-    -link densities
+    ''' to add
+    - link density
     - more tags
     - find a way to determine which text tags are used
     '''
 
+## TRIM STRINGS
+NO_TAG_SPACE = re.compile(r'(?<![p{P}>])\n')
+SPACE_TRIMMING = re.compile(r'\s+', flags=re.UNICODE|re.MULTILINE)
+def trim(string):
+    '''Remove unnecessary spaces within a text string'''
+    try:
+        # remove newlines that are not related to punctuation or markup + proper trimming
+        return SPACE_TRIMMING.sub(r' ', NO_TAG_SPACE.sub(r' ', string)).strip(' \t\n\r\v')
+    except TypeError:
+        return None
 
 def open_sample(fname):
     with io.open(fname, 'r', encoding = 'utf-8') as f:
