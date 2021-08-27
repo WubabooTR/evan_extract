@@ -72,7 +72,7 @@ class GetNodeFeatures():
         for e in self.root.iter():
             # Check to see if both e.text and e.tail are in the text file
             if e.text:
-                if e.tail:
+                if e.tail:  
                     self.nodes[e] = (e.text in self.text) and (e.tail in self.text)
                 else:
                     self.nodes[e] = e.text in self.text

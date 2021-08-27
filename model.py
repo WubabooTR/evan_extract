@@ -9,6 +9,25 @@ import pandas as pd
 import numpy as np
 import re 
 
+'''
+Evan's attempt at using Machine Learning to classify HTML nodes as content or non-content
+'''
+
+'''
+1: Create the Training Dataset
+    - Iterate through the articles in the articles folder
+    - Label each node with features and a classification (content/ not-content)
+        Features include:
+            - tag
+            - text_density ( (total characters in subtree) / (total number of tags in the subtree (=1 if it is 0)))
+            - link_density (total number of <a> tags) / (total length of text in the block )
+            - classification of previous node (content or non-content)
+            - tag of previous node
+            - number of children
+            - number of words in text and tail
+            - number of node attributes
+            - count of stop_words
+'''
 files = os.listdir('./articles')
 files = [f[:-len('.txt')] for f in files if f.endswith('.txt')]
 
@@ -21,21 +40,19 @@ for file in tqdm.tqdm(files):
     features = GetNodeFeatures(open_file(html), open_file(text), file)
     res += features.features
     i += 1
-    '''
-    if i >5:
-        break
-    '''
     print(i) 
 
 elapsed = (datetime.datetime.now() - start).total_seconds()
 df = pd.DataFrame(res)
 
 
-# Preprocessing 
-## - Remove unnecessary columns
-## - One Hot Encoding
-## - Train Test Split
-## - Feature Scaling
+'''
+2:  Preprocessing 
+ - Remove unnecessary columns
+ - One Hot Encoding
+ - Train Test Split
+ - Feature Scaling
+'''
 def preprocess(df):
     from sklearn.preprocessing import StandardScaler
     from sklearn.model_selection import train_test_split
@@ -59,14 +76,6 @@ def preprocess(df):
     ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [0, 4])], remainder='passthrough', 
                            sparse_threshold = 0)
     X = np.array(ct.fit_transform(X))
-    '''
-    # One hot encoding
-    one_hot_tag = pd.get_dummies(X['tag'])
-    one_hot_prev_tag = pd.get_dummies(X['prev_node_tag'])
-    one_hot_prev_tag = one_hot_prev_tag.rename(lambda s: "prev_node_{}".format(s), axis = 1)
-    X = X.drop(['tag', 'prev_node_tag'], axis = 1)
-    X = X.join([one_hot_tag, one_hot_prev_tag])
-    '''
     
     # Train Test Split
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 1)
@@ -78,7 +87,30 @@ def preprocess(df):
     
     return X_train, X_test, y_train, y_test, ct, sc
 
-# Confusion matrix and accuracy score
+'''
+3: Train models
+    - Using the training set, train some models 
+'''
+def models(X_train, y_train):
+    from sklearn.svm import SVC
+    from sklearn.tree import DecisionTreeClassifier
+    from sklearn.ensemble import GradientBoostingClassifier
+    from sklearn.ensemble import RandomForestClassifier
+    #classes = {'svc': SVC}
+    #classes = {'dtc': DecisionTreeClassifier}
+    classes = {'rf': RandomForestClassifier, 'gb': GradientBoostingClassifier, 'dt': DecisionTreeClassifier,
+               'svc': SVC}
+    results = {}
+    for key in classes:
+        print('training ', key)
+        classifier = classes[key]()
+        classifier.fit(X_train, y_train)
+        results[key] = classifier
+    return results
+
+'''
+3.5: Get Confusion Matrix and Accuracy Score
+'''
 def test_model(model, X_test, y_test):
     from sklearn.metrics import confusion_matrix, accuracy_score
     y_pred = model.predict(X_test)
@@ -89,15 +121,13 @@ def test_model(model, X_test, y_test):
     
     return cm, acc
 
-def models(X_train, y_train):
-    from sklearn.svm import SVC
-    classes = {'svc': SVC}
-    results = {}
-    for key in classes:
-        classifier = classes[key]()
-        classifier.fit(X_train, y_train)
-        results[key] = classifier
-    return results
+'''
+4: Make predictions for an HTML file
+    - Use the GetContent class to extract the text from the HTML
+    - Iterates through the nodes and classifies the nodes as content or non-content
+    - Pulls text from all content labelled nodes recursively
+    
+'''
 
 class GetContent():
     def __init__(self, html, model, column_transformer, feature_scaler):
@@ -107,16 +137,26 @@ class GetContent():
         self.ct = column_transformer
         self.sc = feature_scaler
         
+        # Get features for each node in the HTML
         self.feat = GetNodeFeatures(self.html, '', 'file_name')
         self.features = self.feat.features
         self.nodes = self.feat.nodes
         
         self.classifications = []
+        
+        # self.content: {str: bool}, bool as 0,1 
         self.content = {}
         self.predict()
         
+        # Get the text starting from the root node, taking text from nodes if the node is 
+        #   classified as text
         self.text = self.get_text(self.features[0]['node'])
-        
+    
+    ## Transforms node and its features to a similar form that has been used to preprocess
+    ##  the training data
+    ##      - gets relevant columns
+    ##      - applies one hot encoding
+    ##      - applies features scaling
     def transform(self, node):
         node_df = pd.DataFrame([node])
         node_df = node_df.drop(['file', 'node', 'attrib', 'content'], 1)
@@ -127,22 +167,27 @@ class GetContent():
         node_df = self.sc.transform(self.ct.transform(node_df))
         return node_df
     
-    def predict(self):
-        
+    ## For each node, make a classification as 'content' or 'non-content'
+    def predict(self): 
         prev_node_class = 0
         self.classifications = []
         self.temp = []
+        # Iterate through all nodes
         for f in self.features:
+            # Set the classification of the previous node
             f['prev_node_class'] = prev_node_class
+            # make prediction
             prediction = self.model.predict((self.transform(f)))[0]
+            # Update previous node
             prev_node_class = prediction
+        
             self.classifications.append(prediction)
+            # Add the prediction to a dictionary 
             self.content[etree.tostring(f['node'])] = prediction
             f['content'] = bool(prediction)
         return self.classifications
     
     # Get the text and tail content of the element
-    ### !!!!!!! 
     ## content can be nested, 
     ## e.g. <tag> content text <child> child text </child> tail text </tag>
     ##  - formatting will be messed up!!
@@ -158,7 +203,8 @@ class GetContent():
         if self.content[etree.tostring(node)] and node.tail:
             text += node.tail
         return self.trim(text)
-            
+    
+    # Stolen from Trafilatura code
     def trim(self, string):
         '''Remove unnecessary spaces within a text string'''
         ## TRIM STRINGS
@@ -171,10 +217,11 @@ class GetContent():
             return None
 
 
-
+'''Run it all'''
 X_train, X_test, y_train, y_test, ct, sc = preprocess(df)
 start = datetime.datetime.now()
 model = models(X_train, y_train)
 model_train_time = datetime.datetime.now() - start
 
-cm, acc = test_model(model['svc'], X_test, y_test)
+cm_gb, acc_gb = test_model(model['gb'], X_test, y_test)
+cm_rf, acc_rf = test_model(model['rf'], X_test, y_test)

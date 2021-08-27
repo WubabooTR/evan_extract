@@ -4,6 +4,7 @@ from newspaper import Article
 from newspaper import fulltext
 from extract_text import Extract
 import cetr_test
+from model import GetContent, model, ct, sc
 
 from datetime import datetime
 import requests
@@ -12,6 +13,7 @@ import codecs
 import pandas as pd
 import os
 import numpy as np
+import tqdm
 
 ## trafila(str, str) -> dict
 ## Given a url or an html, uses the Trafilatura library to 
@@ -109,6 +111,31 @@ def cetr(url = None, html = None):
     except:
         return dict([('text', None), ('title', None)])
 
+# Random Forest    
+def rf(url = None, html = None):
+    if not html:
+        return dict([('text', None), ('title', None)])
+    try:
+        d = {}
+        content = GetContent(html, model['rf'], ct, sc)
+        d["title"] = None
+        d["text"] = content.text
+        return d
+    except:
+        return dict([('text', None), ('title', None)])
+
+# Gradient Boosting
+def gb(url = None, html = None):
+    if not html:
+        return dict([('text', None), ('title', None)])
+    try:
+        d = {}
+        content = GetContent(html, model['gb'], ct, sc)
+        d["title"] = None
+        d["text"] = content.text
+        return d
+    except:
+        return dict([('text', None), ('title', None)])
     
 # open_file(str) -> str
 # Given a string path, opens the relevant file and return its contents
@@ -141,7 +168,8 @@ def matches(s1, s2):
 ## true values in html article
 def compare(html, true_res):
     libs = {'trafilatura': trafila, 'boilerpy3': boiler, 
-            'newspaper3k': newspaper, 'evan': evan, 'cetr': cetr}
+            'newspaper3k': newspaper, 'evan': evan, 'cetr': cetr, 'gradient_boost': gb,
+            'random_forest': rf}
     res = {}
     for lib in libs:
         start_time = datetime.now()
@@ -163,7 +191,7 @@ files = os.listdir('./articles')
 files = [f[:-len('.txt')] for f in files if f.endswith('.txt')]
 
 j = 0
-for file in files:
+for file in tqdm.tqdm(files):
     j += 1
     text = './articles/{}.txt'.format(file)
     html = './articles/{}.html'.format(file)
@@ -185,5 +213,7 @@ for file in files:
     res.append(row)
 
 df = pd.DataFrame(res)
+
+
 
 
